@@ -15,7 +15,7 @@ spec:
         service: api-user
     spec:
       containers:
-      - image: shincnielts/udagram-api-user:latest
+      - image: trankhoahaha/udagram-api-user:latest
         name: api-user
         imagePullPolicy: Always
         resources:

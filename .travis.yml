@@ -24,7 +24,7 @@ script:
 ## Tagging
 - docker tag udagram-api-feed trankhoahaha/udagram-api-feed:latest
 - docker tag udagram-api-user trankhoahaha/udagram-api-user:latest
-- docker tag udagram-frontend trankhoahaha/udagram-frontend:latest
+- docker tag udagram-frontend trankhoahaha/udagram-frontend:v5
 - docker tag udagram-reverseproxy trankhoahaha/udagram-reverseproxy:latest
  
 ## Format DOCKER information
@@ -33,4 +33,4 @@ after-success:
 - docker push trankhoahaha/udagram-reverseproxy:latest
 - docker push trankhoahaha/udagram-api-feed:latest
 - docker push trankhoahaha/udagram-api-user:latest
-- docker push trankhoahaha/udagram-frontend:latest
+- docker push trankhoahaha/udagram-frontend:v5
